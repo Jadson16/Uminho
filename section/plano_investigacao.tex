@@ -1,0 +1,64 @@
+\section{Plano de Investigação}
+\label{sec:plano-invetigação}
+\subsection*{Título:}
+
+
+\MyTitle.
+ 
+\subsection*{Questão Principal:}
+
+Quais são os efeitos dinâmicos de curto e longo prazo (ciclo e tendência) do mercado de moradias urbanas das regiões metropolitanas brasileiras decorrentes de sua estrutura interna sob um capitalismo liberado pelas finanças?
+
+\subsection*{Hipótese:}
+
+Com uma maior oferta de crédito para o setor imobiliário, mesmo em uma situação em que o crescimento populacional ou os níveis de renda não se elevem, haverá uma pressão inflacionária nos preços dos imóveis elevando dessa forma o principal parâmetro social desse mercado que é deficit habitacional. As consequências de longo prazo seria a criação de riqueza financeira em favor da população detentora desses ativos reforçando o carácter desigual e concentrador desse mercado.
+
+\subsection*{Plano de Trabalho Detalhado}
+
+O plano de trabalho está dividido em três parte, sendo que a primeira e segunda parte tem como objetivo construir fatos estilizados do mercado de moradias urbanas em um plano macro e microeconômico, respectivamente. A terceira e última parte será proposto o Modelo Baseado em Agentes que seja calibrado com os fatos estilizados levantados nas partes um e dois.
+
+Desta maneira, o presente projeto de pesquisa propõe desenvolver o trabalho de tese em formato de três ensaios que em conjunto formam um todo que buscará responder a questão principal. 
+
+\subsubsection*{PARTE I - Determinantes Macroeconômicos do Mercado de Crédito Imobiliário Brasileiro}
+
+%%%%%%%%%%%%       OBJETIVO     %%%%%%%%%%%%
+Investigar empiricamente os determinantes macroeconômicos dos mercado de crédito imobiliário brasileiro no período recente (2003-2015), bem como seus efeitos dinâmicos decorrentes de choques da Política Monetária.
+
+%%%%%%%%%%%%       MÉTODOS      %%%%%%%%%%%%
+Assim, para estimar a função de demanda por crédito imobiliário utilizaremos um modelo de equações simultâneas com presença de mudança de regime do tipo Markov Switching tendo com base os dados trimestrais agregados de 1T2003 a 4T2015 sendo obtidos junto a base de dados do Instituto Brasileiro de Geografia e Estatística - IBGE e o Banco Central Brasileiro - BACEN. Por fim, para avaliarmos o efeitos da política monetária sobre a demanda por crédito imobiliário no país iremos aplicar um modelo do tipo vetor autorregressivo estrutural (SVAR - \textit{Strutural Vector Autorregression}).  
+%% OBSERVAÇÃO DE MUNDANÇA DE ESTRATÉGIA EMPIRICA
+%Eu iria utilizar inicialmente o dados da FIPEZAP, porém, esse painel ainda é muito curto para a variável tempo (2012-2015) os resultados tem se apresentado inconsistentes.
+% Desenvolveremos uma metodologia de dados em painel, com informações agregadas para as capitais metropolitanas sendo eles: São Paulo (SP), Rio de Janeiro (RJ), Belo Horizonte (BH), Recife (PE), Fortaleza (CE), Salvador (BA), Curitiba (PR), Porto Alegre (RS) e Distrito Federal (DF). Os dados são apresentados por trimestres onde compreendem os anos de 2T2012 a 4T2017, e foram obtidos junto a base de dados do Instituto Brasileiro de Geografia e Estatística - IBGE, Fundação Instituto de Pesquisa Econômica - FIPE e o Banco Central Brasileiro - BACEN. Utilizamos como indicador de preços dos imóveis o preço do m\textsuperscript{2} da FIPEZAP de cada município analisado e como determinante as variáveis macroeconômicas: Produto Interno Bruto per capita em termos reais, Juros para o setor imobiliário, Crédito Habitacional e Pessoal Ocupado no Mercado de Trabalho.
+
+%%%%%%%%%%%%       RESULTADOS ESPERDOS      %%%%%%%%%%%%
+Esperamos com isso identificar como a demanda por crédito no Brasil se comporta ao longo do tempo dados os parâmetros macroeconômicos, bem como seus efeitos para choques promovidos pela política monetária durante esse período analisado. 
+% Para o caso de termos uma perna temporal mais longo: >> Esperamos com isso apresentar em termos de elasticidade quais variações são mais sensíveis, por cidade, tamanho e localização, para a partir disso obter parâmetros que serão utilizados no modelo de simulação computacional de longo prazo.
+
+\subsubsection*{Parte II - Determinantes Microeconômicos do Mercado Habitacional: uma avaliação Propensity Score Matching}
+
+%%%%%%%%%%%%       OBJETIVO     %%%%%%%%%%%%
+Por conta de uma grande oferta de crédito imobiliário de 2003-2015, o objetivo do trabalho é verificar quais são as elasticidades renda da demanda e, sobretudo, quais as consequências na estrutura de gasto para as famílias que demandam crédito imobiliário e para as que alugam como forma de acesso a moradia.
+
+%%%%%%%%%%%%       MÉTODOS      %%%%%%%%%%%%
+Para estimar o efeito desejado, em um plano teórico ideal deveríamos observar o nível de endividamento pela mesma família na situação em que esteja com financiamento imobiliário e na condição em que tenha de pagar o aluguel. Obviamente verificar essa situação é impossível em sentido prático, pois uma vez que se observa uma família com financiamento não se pode observa-la com aluguel, pelo menos não no mesmo período de tempo. O que podemos caracterizar um problema de contrafactual.
+
+Para transpor essa dificuldade metodológica buscaremos comparar o nível de endividamento das famílias que estão com financiamento e com aluguel disponíveis na base do micro dados da Pesquisa Nacional por Amostra de Domicílios - PNAD de 2000 a 2015 disponibilizado pelo IBGE. A comparação será feita utilizando \textit{Propensity Score Matching (PSM)} entre a famílias que possuem características observáveis similares, tais como: famílias de mesmo tamanho de região metropolitana com renda de até 5 salários mínimos cujos os chefes possuam o mesmo nível educacional, por exemplo.
+
+Ao tomarmos como hipótese inicial que os determinantes do mercado financeiro se dão pela maior oferta de crédito e as condições do preço do aluguel se dão pelas condições da oferta e demanda por imóveis. Então, caso exista alguma diferença estatisticamente significativa entre os dois tipos de endividamento (financeiro e aluguel) ela se daria, em certa medida, por distorção proveniente do mercado de crédito, pois trata-se de um mercado muito mais flexível quando comparado ao mercado de aluguel.
+
+%%%%%%%%%%%%       RESULTADOS ESPERDOS      %%%%%%%%%%%%
+
+A partir desses fatos estilizados poderemos melhor entender quais são os determinantes microeconômicos do acesso a moradia via mercado de crédito e assim podemos melhor orientar o papel das políticas de crédito como forma de combate ao deficit habitacional.
+
+\subsubsection*{Parte III - Modelo Baseado em Agentes para o Mercado de Moradias Urbanas para Regiões Metropolitanas do Brasil}
+
+%%%%%%%%%%%%       OBJETIVO     %%%%%%%%%%%%
+ Propor um modelo Baseado em Agentes no qual seja, no plano teórico e modelístico, calibrado como as relações micro e macrodinâmicas, isto é, com todas as principais trocas entre os mercados real e financeiro devidamente explicadas e com forte vínculo com as contas nacionais.
+
+%%%%%%%%%%%%       MÉTODOS      %%%%%%%%%%%%
+A simulação computacional será desenvolvida na tradição de modelos consistentes de fluxo dinâmico de estoque ou \textit{Stock Flow Consistente Model} de \citeonline{Godley2007}. Dessa forma, dado um conjunto inicial de parâmetro e calibrados com os fatos estilizados do mercado será realizados testes de robustez paras trajetórias, testes de cointegração, testes de raízes unitárias para os casos de series temporais. Por fim, analisar as relações entre consumo, poupança, nível de endividamento, mercado financeiro e mercado de moradia tanto no ciclo como possíveis resultados de longo prazo. 
+
+%%%%%%%%%%%%       RESULTADOS ESPERDOS      %%%%%%%%%%%%
+Em vista disso, esperamos que seja possível obter um modelo que seja capaz de analisar de forma mais abrangente possível os efeitos dinâmicos de curto prazo (no plano empírico) e de longo prazo (no plano teórico e modelístico) do mercado de moradias urbanas brasileiro decorrentes de sua estrutura interna.
+ 
+

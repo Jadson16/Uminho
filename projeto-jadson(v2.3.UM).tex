@@ -1,0 +1,60 @@
+
+\documentclass[article,	12pt, oneside, a4paper, english, brazil, sumario=tradicional]{abntex2}
+	
+\include{packages/pacotes}
+	
+% Informações de dados para CAPA e FOLHA DE ROSTO
+%---
+\include{section/capa_contracapa}
+
+% ----
+% Início do documento
+% ----
+	
+\begin{document}
+
+% Retira espaço extra obsoleto entre as frases.
+
+\frenchspacing 
+
+
+
+%\maketitle %título padrão de artigo - vem no topo do texto)
+% ---
+% Capa
+% ---
+% \imprimircapa
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+
+\imprimirfolhaderosto	
+% ---
+
+\include{section/apresentacao-minho}
+
+\include{section/justificativa}
+	
+\include{section/objetivos}
+
+\include{section/revisao-literatura}
+
+\include{section/metodologia}
+
+\include{section/plano_investigacao}
+
+%\include{section/plano_redacao}
+
+%\include{section/cronograma}
+
+%\include{section/rascunho}
+
+
+\newpage
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+	
+\bibliography{/home/jadson/Insync-GoogleDrive/minha-biblioteca/Tese.bib}	
+
+\end{document}

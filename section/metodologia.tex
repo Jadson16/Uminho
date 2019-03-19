@@ -1,0 +1,39 @@
+\section{Proposta Metodológica}
+\label{sec:proposta-metodologica}
+
+Ao tratar o mercado moradias como um Sistema Complexo temos, como consequência, que não é possível uma solução analítica fechada, pois trata-se de um modelo não-linear com elevado grau de interações endógenas. Assim, um caminho possível de investigar esse mercado, por essa abordagem, seria a partir da perspectiva da modelagem e simulação computacional baseada em agentes (\textit{Agent-Based Model} - ABM) como forma de obter a dinâmica entre as variáveis do modelo \cite{AXELROD1997}.
+
+No entanto, a utilização de ABM parte de um conjunto de pressupostos e parâmetros inciais que devem ter um certo grau de aderência com as observações empíricas. Assim, segundo \citeonline{Papadelis2019}, uma abordagem comum para validação de um ABM seria por meio de dados históricos onde esse processo, se feito de forma correta, é capaz de tratar de modo mais adequado as incertezas típicas presentes nesses modelos.
+
+O presente projeto de pesquisa, portanto, buscará a utilização do método de calibração definido por \citeonline[p.92]{HANSEN1996} como sendo um mecanismos de manipulação das variáveis independentes, isto é, os parâmetros e as condições iniciais, de modo \enquote{a obter uma combinação plausível entre os dados observados empiricamente e os resultados simulados} como meio de verificação do modelo. O que torna necessário, por princípio, a compreensão dos processos dinâmicos e históricos internos existente no mercado em estudo.
+
+Sendo assim, para alcançar os objetivos propostos, o projeto de pesquisa será orientado pelos seguintes procedimentos metodológicos:
+
+\textbf{Levantamento bibliográfico:} Realizar revisão sistemática da literatura nacional e internacional sobre: a) resultados microeconômicos para a estrutura de gastos e endividamento das famílias que possuem crédito habitacional tendo como objetivo analisar os parâmetros e elasticidades dos principais gastos; b) determinantes macroeconômicos do mercado habitacional com especial atenção a formação do preço, crédito e ciclo de negócio; e c) modelos baseados em agentes (ABM) que tratem de mercados específicos e que utilizem como métodos de calibração dados históricos para verificação do modelo.
+
+\textbf{Levantamento documental e base de dados:} Coleta de dados secundários necessários para a elaboração dos modelos econométricos, com o propósito de identificar os choques no lado produtivo, por parte das principais variáveis de manejo da política econômica nacional dentre os quais destacamos, \textit{a priori}, variação de emprego por estado, de forma agregada e pelo setor imobiliário junto ao Instituto Brasileiro de Geografia e Estatística – IBGE/CAGED, taxa de juros de referência (SELIC) junto ao Banco Central do Brasil - BACEN, o índice de preços ao consumidor amplo, referência nacional (IPCA) e setorial (INCC), além de agregados espaciais específicos para o estudo, áreas urbanas das regiões metropolitanas. Todas as séries devem ser coletadas, para o período inicial de janeiro de 2003 para que se possa assim, captar os efeitos pré e pós crise financeira mundial de 2008/2009 e brasileira 2014.
+
+\textbf{Equações Estruturais e Comportamentais:} Desenvolvimento dos parâmetros e condições iniciais para a elaboração do modelos e simulação computacional em um plano macroeconômico (equações estruturais) e microeconômica (equações comportamentais). 
+
+\begin{enumerate}
+	\item Estimar a função de demanda agregada por crédito imobiliário utilizando um Modelo de Equações Simultâneas (MES) com presença de mudança de regime do tipo Markov Switching. Por fim, para avaliar os efeitos da política monetária sobre a demanda por crédito imobiliário no país iremos aplicar um modelo do tipo vetor autorregressivo estrutural (SVAR - \textit{Strutural Vector Autorregression}).
+	
+	\item Avaliar o impacto do financiamento habitacional na estrutura de gastos e endividamento das famílias por meio do método \textit{Propensity Score Matching}, onde o grupo de tratamento serão as famílias com financiamento residencial e o contrafactual serão as famílias sem financiamento.
+	
+\end{enumerate}
+
+
+\textbf{Modelos Baseado em Agentes:} Para a construção, calibração e verificação da proposta do ABM iremos adorar os seguintes procedimentos metodológicos:
+
+\begin{enumerate}
+	\item Apresentar o conjunto das equações comportamentais, bem como atribuir os parâmetros e condições inciais tendo como base, na medida do possível, as estimativas empíricas levantadas pelas equações estruturais e comportamentais;
+	
+	\item Simular via programa de computação para verificar as trajetórias dinâmicas das variáveis endógenas do modelo;
+	
+	\item Verificar se as trajetórias dinâmicas do modelo reproduzem bem as condições gerais e fatos estilizados do mercado habitacional brasileiro via testes de robustez paras trajetórias, testes de cointegração, testes de raízes unitárias para os casos de series temporais, dentre outros testes que se fizerem necessários;
+	
+	\item Tomando como base os testes realizados, caso as trajetórias inicias não sejam compatíveis com a realidade empírica e os fatos estilizados, colheremos um novo conjunto de valores e repetiremos a simulação.
+	
+\end{enumerate}
+
+Dados os passos apresentados será possível investigar, em uma abordagem que leve em consideração a Economia como um Sistema Complexo, as relações entre as variáveis macro e microeconômicas a fim de verificar a pergunta principal do estudo: quais são os efeitos dinâmicos de curto prazo (no plano empírico) e de longo prazo (no plano teórico e modelístico) do mercado de moradias urbanas brasileiro decorrentes de sua estrutura interna sob um capitalismos liberado pelas finanças?
