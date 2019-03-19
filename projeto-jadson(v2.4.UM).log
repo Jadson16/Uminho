@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.8)  19 MAR 2019 13:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.8)  19 MAR 2019 13:49
 entering extended mode
 **./projeto-jadson(v2.4.UM).tex
 (projeto-jadson(v2.4.UM).tex
@@ -944,83 +944,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 \openout2 = `section/justificativa.aux'.
 
- (section/justificativa.tex
-
-LaTeX Warning: Citation `CARDOSO2015' on page 2 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Agnello2018' on page 2 undefined on input line 13.
-
-
-LaTeX Warning: Citation `CHESNAIS1996' on page 2 undefined on input line 18.
-
-
-LaTeX Warning: Citation `Chesnais98' on page 2 undefined on input line 18.
-
-
-LaTeX Warning: Citation `ROLNIK2015' on page 2 undefined on input line 18.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
+ (section/justificativa.texpdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 
-      [2
+l.20 A
+       produção de moradias, portanto, possibilita a criação de poupanç...
+[2
 
 
-]
-
-LaTeX Warning: Citation `Lancaster1966' on page 3 undefined on input line 22.
-
-
-LaTeX Warning: Citation `2006TesfatsionJudd' on page 3 undefined on input line 
-30.
-
-
-LaTeX Warning: Citation `AALBERS2015' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `Aglietta2004financeirizacao' on page 3 undefined on in
-put line 35.
-
-
-LaTeX Warning: Citation `Orlean2006financeirizacao' on page 3 undefined on inpu
-t line 35.
-
-[3]
-
-LaTeX Warning: Citation `Paulani2009a' on page 4 undefined on input line 37.
-
-
-LaTeX Warning: Citation `FJP2018' on page 4 undefined on input line 39.
-
-
-LaTeX Warning: Citation `ibge2015b' on page 4 undefined on input line 39.
-
+] [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 48.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 48.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 48.
-[4]
-
-LaTeX Warning: Citation `Cerutti2017' on page 5 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Otto2015' on page 5 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Lucena2009' on page 5 undefined on input line 56.
-
-
-LaTeX Warning: Citation `Berghgowdy2003' on page 5 undefined on input line 62.
-
-
-LaTeX Warning: Citation `DurantonPuga2004' on page 5 undefined on input line 62
-.
-
-[5]) [6]
+ [4] [5]) [6]
 \openout2 = `section/objetivos.aux'.
 
  (section/objetivos.tex
@@ -1038,82 +978,13 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 ]
 \openout2 = `section/revisao-literatura.aux'.
 
- (section/revisao-literatura.tex
-
-LaTeX Warning: Citation `Davis2015' on page 8 undefined on input line 5.
+ (section/revisao-literatura.tex [8
 
 
-LaTeX Warning: Citation `Zezza2007' on page 8 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Blank2014struture' on page 8 undefined on input line 2
-0.
-
-
-LaTeX Warning: Citation `Wheaton1990housing' on page 8 undefined on input line 
-24.
-
-
-LaTeX Warning: Citation `HARVEY2005' on page 8 undefined on input line 34.
-
-
-LaTeX Warning: Citation `ROLNIK2015' on page 8 undefined on input line 34.
-
-
-LaTeX Warning: Citation `Colander2004' on page 8 undefined on input line 36.
-
-[8
-
-
-]
-
-LaTeX Warning: Citation `Simon1980' on page 9 undefined on input line 40.
-
-
-LaTeX Warning: Citation `Foster2005' on page 9 undefined on input line 40.
-
-
-LaTeX Warning: Citation `Holt2011' on page 9 undefined on input line 42.
-
-
-LaTeX Warning: Citation `Aziza2016a' on page 9 undefined on input line 45.
-
-
-LaTeX Warning: Citation `SAMUELSON1983' on page 9 undefined on input line 47.
-
-
-LaTeX Warning: Citation `Ch2014' on page 9 undefined on input line 49.
-
-
-LaTeX Warning: Citation `BERGMANN1990' on page 9 undefined on input line 51.
-
-[9]
-
-LaTeX Warning: Citation `Farias2017' on page 10 undefined on input line 55.
-
-
-LaTeX Warning: Citation `AN2012' on page 10 undefined on input line 57.
-
-
-LaTeX Warning: Citation `AXELROD1997' on page 10 undefined on input line 57.
-
-
-LaTeX Warning: Citation `Geanakoplos2012Risk' on page 10 undefined on input lin
-e 61.
-
-) [10]
+] [9]) [10]
 \openout2 = `section/metodologia.aux'.
 
  (section/metodologia.tex
-
-LaTeX Warning: Citation `AXELROD1997' on page 11 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Papadelis2019' on page 11 undefined on input line 6.
-
-
-LaTeX Warning: Citation `HANSEN1996' on page 11 undefined on input line 8.
-
 [11
 
 
@@ -1123,22 +994,16 @@ LaTeX Warning: Citation `HANSEN1996' on page 11 undefined on input line 8.
  (section/plano_investigacao.tex [13
 
 
-] [14]
-
-LaTeX Warning: Citation `Godley2007' on page 15 undefined on input line 59.
-
-) [15] (projeto-jadson(v2.4.UM).bbl (projeto-jadson(v2.4.UM).brf)
+] [14]) [15]
+(projeto-jadson(v2.4.UM).bbl (projeto-jadson(v2.4.UM).brf)
 \tf@brf=\write4
 \openout4 = `projeto-jadson(v2.4.UM).brf'.
 
 
 bibitemlist
+[16
 
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
-) [16
-
-]
+] [17]) [18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
  (projeto-jadson(v2.4.UM).aux (section/apresentacao-minho.aux)
@@ -1147,23 +1012,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
 (section/plano_investigacao.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
-Package rerunfilecheck Info: File `projeto-jadson(v2.4.UM).brf' has not changed
-.
-(rerunfilecheck)             Checksum: A9C1E48FEE91D79B0CC4462D67575ECB;2048.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `projeto-jadson(v2.4.UM).brf' has changed.
 
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `projeto-jadson(v2.4.UM).brf':
+(rerunfilecheck)             Before: A9C1E48FEE91D79B0CC4462D67575ECB;2048
+(rerunfilecheck)             After:  D239D340A9562C22E7491A1ED3AE5EBE;2048.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 14156 strings out of 492946
- 219760 string characters out of 3126267
- 395518 words of memory out of 3000000
- 17641 multiletter control sequences out of 15000+200000
- 61129 words of font info for 107 fonts, out of 3000000 for 9000
+ 14286 strings out of 492946
+ 221880 string characters out of 3126267
+ 405236 words of memory out of 3000000
+ 17717 multiletter control sequences out of 15000+200000
+ 62032 words of font info for 114 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,12n,40p,1142b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,12n,40p,1142b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jadso/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
 y.enc}{C:/Users/jadso/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-e
 c.enc}<C:/Users/jadso/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
@@ -1174,9 +1041,9 @@ ublic/lm/lmr7.pfb><C:/Users/jadso/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/lm/lmr8.pfb><C:/Users/jadso/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/lm/lmri12.pfb><C:/Users/jadso/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/lm/lmsy10.pfb>
-Output written on projeto-jadson(v2.4.UM).pdf (17 pages, 219298 bytes).
+Output written on projeto-jadson(v2.4.UM).pdf (19 pages, 267267 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
+ 369 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
  16977 words of extra memory for PDF output out of 17280 (max. 10000000)
 
