@@ -5,10 +5,10 @@ A level-1 auxiliary file: section/objetivos.aux
 A level-1 auxiliary file: section/revisao-literatura.aux
 A level-1 auxiliary file: section/metodologia.aux
 A level-1 auxiliary file: section/plano_investigacao.aux
-I couldn't open database file /home/jadson/Insync-GoogleDrive/minha-biblioteca/Tese.bib.bib
+I couldn't open database file referencias/Tese.bib.bib
 ---line 40 of file projeto-jadson(v2.4.UM).aux
- : \bibdata{abntex2-options,/home/jadson/Insync-GoogleDrive/minha-biblioteca/Tese.bib
- :                                                                                   }
+ : \bibdata{abntex2-options,referencias/Tese.bib
+ :                                              }
 I'm skipping whatever remains of this command
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
